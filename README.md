@@ -16,7 +16,7 @@ These JVM opts are required for Datalevin to access the file storage, make sure 
 ```clojure
 {:aliases
  :nextjournal/garden
- {:exec-fn dev.tarka.sidework-site.core/-main
+ {:exec-fn your.ns/-main
   :jvm-opts ["--add-opens=java.base/java.nio=ALL-UNNAMED"
              "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED"]}}
 ```
