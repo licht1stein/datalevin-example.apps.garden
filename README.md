@@ -4,7 +4,7 @@ A demo for setting up [datalevin](https://github.com/juji-io/datalevin?tab=readm
 
 
 ## Deploy Strategy
-When using file storage back-end, app must be restarted on re-deploy, otherwise you'll see resource unavailable errors or similar:
+When using Datalevin with file storage back-end, app must be restarted on re-deploy, otherwise you'll see resource unavailable errors or similar:
 
 `Platform constant error code: EAGAIN Resource temporarily unavailable (11)`
 
