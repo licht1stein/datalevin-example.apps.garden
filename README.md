@@ -14,8 +14,7 @@ Make sure to include `:deploy-strategy :restart` in your `garden.edn` file.
 These JVM opts are required for Datalevin to access the file storage, make sure to include them in `:nextjournal/garden` alias in `deps.edn`:
 
 ```clojure
-:jvm-opts ["--add-opens=java.base/java.nio=ALL-UNNAMED"
-                                           "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED"]
+:jvm-opts ["--add-opens=java.base/java.nio=ALL-UNNAMED"                                         "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED"]
 ```
 
 You can find more details in the Datalevin's [install docs](https://github.com/juji-io/datalevin/blob/master/doc/install.md#clojure-library).
